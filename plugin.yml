@@ -2,7 +2,7 @@
 name: BroadSword
 version: 1.0.0
 main: Joestarfish\BroadSword\Main
-api: 5.4.3
+api: 5.0.0
 src-namespace-prefix: Joestarfish\BroadSword
 load: STARTUP
 loadbefore:
