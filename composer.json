@@ -1,0 +1,28 @@
+{
+	"name": "joestarfish/broadsword",
+	"description": "A PMMP plugin that implements a BroadSword which can deal high damages",
+	"type": "project",
+	"license": "MIT",
+	"require": {
+		"customiesdevs/customies": "dev-composer"
+	},
+	"require-dev": {
+		"pocketmine/pocketmine-mp": "^5.4"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/Joestarfish/Customies.git"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Joestarfish\\BroadSword\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Joestarfish"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+# The texture of the item
+# Keep in mind you will need to provide a resource pack containing this texture to your players
+texture: trident
+
+# The name visible when holding the item.
+# To translate it to multiple languages you will need to add translations to a resource pack
+item-name: Broad Sword
+
+# The max durability of the item
+durability: 10
+
+# How much ticks does this item takes to charge
+# It will deal 0 damage until it is held for that much ticks
+charging-ticks: 30
+
+# How much attack damage does the broadsword do when it is fully charged
+attack-points: 15
+
+# Can a player attack another one while the Broad Sword is not fully loaded ?
+# Set to "true" to let the player get attacked (with 0 damage) or "false" if the attack should be cancelled ?
+attack-when-loading: true
+
+# Do you want to punish your players if they try to attack too early ?
+# You can use this to reset the loading timer if they try to attack while the Broad Sword is not fully loaded.
+# Set to "true" to reset the loading timer or "false" to let it
+reset-when-attacking-while-loading: false
+
+# A popup that is send to the player
+popup:
+    active: true # if set to true, a popup will be sent to the player showing the charging progress
+    type: action_bar # what kind of popup will be sent (action_bar | jukebox | popup | tip)
+    progress-char: '|' # A character that is repeated <length> times which makes a loading bar
+    length: 20 # The number of times the <progress-char> is repeated (between 20 and 50)
+    color:
+        progress: '§a' # The color of the progress (filled) part of the charging bar
+        remaining: '§7' # The color of the remaining part of the bar
+        filled: '§g' # The color of the bar when it is fully charged
