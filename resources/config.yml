@@ -11,10 +11,10 @@ durability: 10
 
 # How much ticks does this item takes to charge
 # It will deal 0 damage until it is held for that much ticks
-charging-ticks: 30
+charging-ticks: 50
 
 # How much attack damage does the broadsword do when it is fully charged
-attack-points: 15
+attack-points: 30
 
 # Can a player attack another one while the Broad Sword is not fully loaded ?
 # Set to "true" to let the player get attacked (with 0 damage) or "false" if the attack should be cancelled ?

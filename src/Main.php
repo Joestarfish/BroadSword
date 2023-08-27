@@ -174,11 +174,11 @@ class Main extends PluginBase implements Listener {
 	}
 
 	public static function getChargingTicks() {
-		return (int) self::$config->get('charging-ticks', 30);
+		return (int) self::$config->get('charging-ticks', 50);
 	}
 
 	public static function getItemAttackPoints() {
-		return (float) self::$config->get('attack-points', 15);
+		return (float) self::$config->get('attack-points', 30);
 	}
 
 	public static function getCanAttackWhenLoading() {
