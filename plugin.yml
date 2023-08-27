@@ -7,3 +7,5 @@ src-namespace-prefix: Joestarfish\BroadSword
 load: STARTUP
 loadbefore:
     - CustomCraft
+depend:
+    - Customies

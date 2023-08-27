@@ -144,8 +144,9 @@ class Main extends PluginBase implements Listener {
 			return;
 		}
 
-		$task = $this->getScheduler()
-			->scheduleRepeatingTask(new SwordTickingTask($username), 1)
+		$task = new SwordTickingTask($username);
+		$this->getScheduler()
+			->scheduleRepeatingTask($task, 1)
 			->getTask();
 
 		self::$players_ticking[$username] = $task;
