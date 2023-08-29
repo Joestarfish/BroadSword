@@ -15,7 +15,6 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 use pocketmine\utils\SingletonTrait;
 use pocketmine\utils\TextFormat;
-use const BROAD_SWORD_TYPE_ID;
 
 class Main extends PluginBase implements Listener {
 	use SingletonTrait;
