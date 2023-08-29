@@ -3,11 +3,9 @@
 	"description": "A PMMP plugin that implements a BroadSword which can deal high damages",
 	"type": "project",
 	"license": "MIT",
-	"require": {
-		"customiesdevs/customies": "dev-composer"
-	},
 	"require-dev": {
-		"pocketmine/pocketmine-mp": "^5.4"
+		"pocketmine/pocketmine-mp": "^5.4",
+		"customiesdevs/customies": "dev-composer"
 	},
 	"repositories": [
 		{
