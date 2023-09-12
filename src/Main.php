@@ -33,7 +33,7 @@ class Main extends PluginBase implements Listener {
 
 		CustomiesItemFactory::getInstance()->registerItem(
 			BroadSword::class,
-			'minecraft:broad_sword',
+			'broad_sword:broad_sword',
 			self::getItemName(),
 		);
 	}

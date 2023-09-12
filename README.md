@@ -2,13 +2,14 @@
 
 A PMMP plugin that implements a charging sword that can deal great damages
 
-[![](https://poggit.pmmp.io/shield.state/BroadSword)](https://poggit.pmmp.io/p/BroadSword) [![](https://poggit.pmmp.io/shield.dl.total/BroadSword)](https://poggit.pmmp.io/p/BroadSword)
+[![](https://poggit.pmmp.io/shield.api/BroadSword)](https://poggit.pmmp.io/p/BroadSword)
+[![](https://poggit.pmmp.io/shield.dl.total/BroadSword)](https://poggit.pmmp.io/p/BroadSword)
 
 # Usage
 
 To get started, install the [Customies](https://poggit.pmmp.io/p/Customies/) plugin to your `plugins` folder
 
-Then, start your server and give yourself a BroadSword using the command `/give <name> broad_sword`
+Then, start your server and give yourself a BroadSword using the command `/give <name> broad_sword:broad_sword`
 
 You may want to install a custom craft plugin such as [CustomCraft](https://poggit.pmmp.io/p/CustomCraft/) to allow you players to craft this item
 
