@@ -192,12 +192,14 @@ class Main extends PluginBase implements Listener {
 	public static function getPopup() {
 		return [
 			'active' => self::$config->getNested('popup.active', true),
-			'type' => self::$config->getNested('popup.type', 'action_bar'),
+			'type' => strtolower(self::$config->getNested('popup.type', 'action_bar')),
 			'progress-char' => self::$config->getNested('popup.progress-char', '|'),
 			'length' => self::$config->getNested('popup.length', 20),
-			'progress-color' => self::$config->getNested('popup.color.progress', '§a'),
-			'remaining-color' => self::$config->getNested('popup.color.remaining', '§7'),
-			'filled-color' => self::$config->getNested('popup.color.filled', '§g'),
+			'progress-color' => strtolower(self::$config->getNested('popup.color.progress', '§a')),
+			'remaining-color' => strtolower(
+				self::$config->getNested('popup.color.remaining', '§7'),
+			),
+			'filled-color' => strtolower(self::$config->getNested('popup.color.filled', '§g')),
 		];
 	}
 }
